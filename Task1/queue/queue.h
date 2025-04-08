@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include "../LinkList/Link.h"
 
-#define  Queue bidirectionalNode*
+typedef bidirectionalNode* Queue;
 
 Queue QueueInit();
 // Queue QueueInit(bidirectionalNode* preNode);
