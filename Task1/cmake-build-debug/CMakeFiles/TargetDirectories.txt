@@ -1,0 +1,3 @@
+D:/dairy/unique/Task1/cmake-build-debug/CMakeFiles/Task1.dir
+D:/dairy/unique/Task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/dairy/unique/Task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
