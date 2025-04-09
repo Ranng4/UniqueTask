@@ -68,11 +68,14 @@ void unidirectionalDeleByVal(unidirectionalNode* Node,int val)
             pre->next =Index->next;
             Node->val --;
             free(Index);
+            printf("%d已被删除\n",val);
+            return;
         }
         pre=pre->next;
         Index = pre->next;
     }
-     printf("%d已被删除\n",val);
+     printf("%d不存在\n",val);
+
 }
 
 
@@ -141,10 +144,13 @@ void bidirectionalNodeDeleByVal(bidirectionalNode* Node,int val)
             Index->pre->next =Index->next;
             Node->val--;
             free(Index);
+            printf("%d已被删除\n",val);
+            return;
         }
         Index =  Index->pre->next;
     }
-    printf("%d已被删除\n",val);
+    printf("%d不存在\n",val);
+
 }
 
 

@@ -5,7 +5,7 @@
 #ifndef HASHMAP_H
 #define HASHMAP_H
 
-#define TABLESIZE 32
+#define TABLESIZE  32
 
 typedef struct Node{
   char* key;
@@ -19,4 +19,11 @@ typedef struct HashTable{
 }HashTable;
 
 
+HashTable* HashTableInit();
+void insert(HashTable* hashTable,char* key ,int val );
+int* find(HashTable* hashTable,const char *key);
+void removeKey(HashTable* hashTable,const char *key);
+void hashMapPrint(HashTable* hashTable);
+void update(HashTable* hash_table, const char* key, int value);
+void destroyHashTable(HashTable* hash_table);
 #endif //HASHMAP_H
