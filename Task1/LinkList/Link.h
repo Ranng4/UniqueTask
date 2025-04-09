@@ -36,4 +36,10 @@ bidirectionalNode* bidirectionalNodeTailerInsert(bidirectionalNode* Node, int va
 void bidirectionalNodePrint(bidirectionalNode* Node);
 void bidirectionalNodeDeleByVal(bidirectionalNode* Node,int val);
 
+
+
+
+//test
+int LinkListTest();
+
 #endif //LINK_H

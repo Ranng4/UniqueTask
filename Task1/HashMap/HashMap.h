@@ -26,4 +26,9 @@ void removeKey(HashTable* hashTable,const char *key);
 void hashMapPrint(HashTable* hashTable);
 void update(HashTable* hash_table, const char* key, int value);
 void destroyHashTable(HashTable* hash_table);
+
+//test
+int HashMapTest();
+
+
 #endif //HASHMAP_H

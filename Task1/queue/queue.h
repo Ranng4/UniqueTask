@@ -25,4 +25,8 @@ int size(bidirectionalNode* Node);
 void push(bidirectionalNode* List,int val);
 int pop(bidirectionalNode* List);
 
+
+//test
+int queueTest();
+
 #endif //QUEUE_H

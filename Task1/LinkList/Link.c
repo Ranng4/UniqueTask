@@ -154,8 +154,23 @@ void bidirectionalNodeDeleByVal(bidirectionalNode* Node,int val)
 }
 
 
+// test
 
 
+int LinkListTest()
+{
+    unidirectionalNode* List = unidirectionalInit();
+    unidirectionalTailerInsert(List,1);
+    unidirectionalTailerInsert(List,2);
+    unidirectionalTailerInsert(List,3);
+    unidirectionalTailerInsert(List,4);
+    unidirectionalTailerInsert(List,5);
+    unidirectionalTailerInsert(List,6);
+    unidirectionalDeleByVal(List,3);
+    unidirectionalPrint(List);
+    return 0;
+
+}
 
 
 
