@@ -194,7 +194,23 @@ void inOrderIterative(TreeNode* root) {
 
 // 层级遍历
 void levelOrder(TreeNode* root) {
+    if (root == NULL) return;
 
+    TreeNode** queue = (TreeNode**)malloc(sizeof(TreeNode*));
+    int front = 0, rear = 0;
+    queue[rear++] = root;
+
+    while (front < rear) {
+        TreeNode* node = queue[front++];
+        printf("%s ", node->data);
+
+        for (int i = 0; i < node->ChildCount; i++) {
+            queue = (TreeNode**)realloc(queue, (rear + 1) * sizeof(TreeNode*));
+            queue[rear++] = node->ChildNode[i];
+        }
+    }
+
+    free(queue);
 }
 
 
