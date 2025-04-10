@@ -214,6 +214,7 @@ void levelOrder(TreeNode* root) {
 }
 
 
+
 // 释放树的内存
 void freeTree(TreeNode* root) {
     if (root == NULL) return;

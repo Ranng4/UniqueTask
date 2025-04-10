@@ -84,6 +84,13 @@ build CMakeFiles/unique.dir/Task1/main.c.obj: C_COMPILER__unique_unscanned_Debug
   OBJECT_DIR = CMakeFiles\unique.dir
   OBJECT_FILE_DIR = CMakeFiles\unique.dir\Task1
 
+build CMakeFiles/unique.dir/Task1/skipList/skipList.c.obj: C_COMPILER__unique_unscanned_Debug D$:/dairy/unique/Task1/skipList/skipList.c || cmake_object_order_depends_target_unique
+  DEP_FILE = CMakeFiles\unique.dir\Task1\skipList\skipList.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -ID:/dairy/unique/Task1/HashMap -ID:/dairy/unique/Task1/LinkList -ID:/dairy/unique/Task1/queue -ID:/dairy/unique/Task1/tree
+  OBJECT_DIR = CMakeFiles\unique.dir
+  OBJECT_FILE_DIR = CMakeFiles\unique.dir\Task1\skipList
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target unique
@@ -92,7 +99,7 @@ build CMakeFiles/unique.dir/Task1/main.c.obj: C_COMPILER__unique_unscanned_Debug
 #############################################
 # Link the executable unique.exe
 
-build unique.exe: C_EXECUTABLE_LINKER__unique_Debug CMakeFiles/unique.dir/Task1/HashMap/HashMap.c.obj CMakeFiles/unique.dir/Task1/LinkList/Link.c.obj CMakeFiles/unique.dir/Task1/queue/queue.c.obj CMakeFiles/unique.dir/Task1/tree/Tree.c.obj CMakeFiles/unique.dir/Task1/main.c.obj
+build unique.exe: C_EXECUTABLE_LINKER__unique_Debug CMakeFiles/unique.dir/Task1/HashMap/HashMap.c.obj CMakeFiles/unique.dir/Task1/LinkList/Link.c.obj CMakeFiles/unique.dir/Task1/queue/queue.c.obj CMakeFiles/unique.dir/Task1/tree/Tree.c.obj CMakeFiles/unique.dir/Task1/main.c.obj CMakeFiles/unique.dir/Task1/skipList/skipList.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\unique.dir

@@ -17,4 +17,6 @@ add_executable(unique
     Task1/queue/queue.h
         Task1/tree/Tree.c
     Task1/tree/Tree.h
-    Task1/main.c)
+    Task1/main.c
+        Task1/skipList/skipList.c
+        Task1/skipList/skipList.h)

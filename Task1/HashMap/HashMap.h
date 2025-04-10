@@ -7,7 +7,7 @@
 
 #define TABLESIZE  32
 
-typedef struct Node{
+typedef struct Node {
   char* key;
   int val;
   struct Node* next;
