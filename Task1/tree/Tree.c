@@ -4,6 +4,7 @@
 
 #include "Tree.h"
 
+#include <ctype.h>
 #include <stdio.h>
 #include<stdlib.h>
 #include <string.h>
@@ -227,6 +228,19 @@ void freeTree(TreeNode* root) {
     free(root->data);
     free(root);
 }
+
+///////////////////////////////////////////////////////////////////////////
+///二叉树
+typedef struct Tree {
+    struct Tree* LChild;
+    struct Tree* RChild;
+    char* val;
+} Tree;
+
+
+
+
+
 
 int TreeTest() {
 

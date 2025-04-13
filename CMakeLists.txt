@@ -19,4 +19,10 @@ add_executable(unique
     Task1/tree/Tree.h
     Task1/main.c
         Task1/skipList/skipList.c
-        Task1/skipList/skipList.h)
+        Task1/skipList/skipList.h
+        Task1/sort/sort.c
+        Task1/sort/sort.h
+        Task1/LinkList/LRUcache.c
+        Task1/graph/graph.c
+        Task1/graph/graph.h
+)

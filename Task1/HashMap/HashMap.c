@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#define TABLESIZE 100  // 确保定义了合适的表大小
+#define TABLESIZE 100
 
 typedef struct Node {
     char *key;

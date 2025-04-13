@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "sort/sort.h"
 #include "queue/queue.h"
 #include "tree/Tree.h"
 #include "HashMap/HashMap.h"
 #include "skipList/skipList.h"
+#include "graph/graph.h"
 
 int main(void)
 {
@@ -12,6 +14,9 @@ int main(void)
     // queueTest();
     // LinkListTest();
     //TreeTest();
-    SkipTest();
-   printf("%d",INT_MIN);
+    //SkipTest();
+    //quickTest();
+    //LRUTest();
+    GraphTest1();
+   //printf("%d",INT_MIN);
 }

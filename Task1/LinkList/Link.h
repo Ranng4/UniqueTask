@@ -41,5 +41,5 @@ void bidirectionalNodeDeleByVal(bidirectionalNode* Node,int val);
 
 //test
 int LinkListTest();
-
+int LRUTest();
 #endif //LINK_H
